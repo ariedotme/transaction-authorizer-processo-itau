@@ -15,7 +15,7 @@ O projeto foi construído com foco em boas práticas de engenharia de software, 
 * **Testes:** JUnit 5, MockK (testes unitários) e Mockito (testes de integração web)
 * **Documentação da API:** OpenAPI 3.0 com Swagger UI (via `springdoc-openapi`)
 * **Containerização:** Docker e Docker Compose
-* **Observabilidade:** Spring Boot Actuator com Micrometer
+* **Observabilidade:** Micrometer Tracing com OpenTelemetry, Zipkin (ambiente de dev), AWS X-Ray (via ADOT Collector)
 
 ## Decisões de Arquitetura (ADRs)
 As principais decisões de arquitetura tomadas durante o desenvolvimento deste projeto estão documentadas na pasta [`/docs/adr`](./docs/adr).
